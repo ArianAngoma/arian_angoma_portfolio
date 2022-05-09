@@ -1,5 +1,6 @@
 import {motion} from 'framer-motion';
 
+import {AppWrap} from '../../wrapper';
 import {images} from '../../constants';
 import './Header.scss';
 
@@ -14,7 +15,7 @@ const scaleVariants = {
   },
 };
 
-export const Header = () => {
+const Header = () => {
   return (
     <div className="app__header app__flex">
       <motion.div
@@ -69,3 +70,6 @@ export const Header = () => {
     </div>
   );
 };
+
+// eslint-disable-next-line new-cap
+export const HeaderAppWrap = AppWrap(Header, 'home');

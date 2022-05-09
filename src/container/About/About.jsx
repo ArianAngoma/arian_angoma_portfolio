@@ -1,10 +1,11 @@
 import {useState, useEffect} from 'react';
 import {motion} from 'framer-motion';
 
+import {AppWrap} from '../../wrapper';
 import {urlFor, client} from '../../client';
 import './About.scss';
 
-export const About = () => {
+const About = () => {
   const [abouts, setAbouts] = useState([]);
 
   useEffect(() => {
@@ -58,3 +59,6 @@ export const About = () => {
     </>
   );
 };
+
+// eslint-disable-next-line new-cap
+export const AboutAppWrap = AppWrap(About, 'about');
