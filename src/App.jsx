@@ -2,7 +2,7 @@ import {
   Footer,
   SkillsAppWrap,
   HeaderAppWrap,
-  Testimonial,
+  TestimonialAppWrap,
   WorkAppWrap,
   AboutAppWrap,
 } from './container';
@@ -17,7 +17,7 @@ const App = () => {
       <AboutAppWrap/>
       <WorkAppWrap/>
       <SkillsAppWrap/>
-      <Testimonial/>
+      <TestimonialAppWrap/>
       <Footer/>
     </div>
   );
