@@ -1,5 +1,5 @@
 import {
-  Footer,
+  FooterAppWrap,
   SkillsAppWrap,
   HeaderAppWrap,
   TestimonialAppWrap,
@@ -18,7 +18,7 @@ const App = () => {
       <WorkAppWrap/>
       <SkillsAppWrap/>
       <TestimonialAppWrap/>
-      <Footer/>
+      <FooterAppWrap/>
     </div>
   );
 };
