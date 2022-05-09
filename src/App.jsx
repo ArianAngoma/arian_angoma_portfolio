@@ -3,7 +3,7 @@ import {
   Skills,
   HeaderAppWrap,
   Testimonial,
-  Work,
+  WorkAppWrap,
   AboutAppWrap,
 } from './container';
 import {Navbar} from './components';
@@ -15,7 +15,7 @@ const App = () => {
       <Navbar/>
       <HeaderAppWrap/>
       <AboutAppWrap/>
-      <Work/>
+      <WorkAppWrap/>
       <Skills/>
       <Testimonial/>
       <Footer/>
