@@ -1,6 +1,6 @@
 import {
   Footer,
-  Skills,
+  SkillsAppWrap,
   HeaderAppWrap,
   Testimonial,
   WorkAppWrap,
@@ -16,7 +16,7 @@ const App = () => {
       <HeaderAppWrap/>
       <AboutAppWrap/>
       <WorkAppWrap/>
-      <Skills/>
+      <SkillsAppWrap/>
       <Testimonial/>
       <Footer/>
     </div>

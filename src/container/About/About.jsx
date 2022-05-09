@@ -1,7 +1,7 @@
 import {useState, useEffect} from 'react';
 import {motion} from 'framer-motion';
 
-import {AppWrap} from '../../wrapper';
+import {AppWrap, MotionWrap} from '../../wrapper';
 import {urlFor, client} from '../../client';
 import './About.scss';
 
@@ -61,4 +61,9 @@ const About = () => {
 };
 
 // eslint-disable-next-line new-cap
-export const AboutAppWrap = AppWrap(About, 'about');
+export const AboutAppWrap = AppWrap(
+    MotionWrap(About, 'app__about'),
+    'about',
+    'app__whitebg',
+);
+
